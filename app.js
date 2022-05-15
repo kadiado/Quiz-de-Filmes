@@ -35,10 +35,3 @@ form.addEventListener('submit', event => {
 	
 });
 
-const divForm = document.querySelector('.my-5')
-
-
-
-// setTimeout(() => {
-// 	alert('oi')
-// }, 2000)
