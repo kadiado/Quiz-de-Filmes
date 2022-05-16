@@ -20,7 +20,11 @@ form.addEventListener('submit', event => {
 		}
 	})
 
-	scrollTo(0, 164)
+	scrollTo({
+    top: 164,
+    left: 0,
+    behavior: 'smooth'
+  });
 	
 	let counter = 0
 	
