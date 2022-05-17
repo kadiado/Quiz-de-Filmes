@@ -10,3 +10,5 @@ A cada reposta certa escolhida pelo usuário, a pontuação é exibida na topo d
 
 
 Link do Git Pages para acessar o projeto de forma fácil
+
+https://github.com/kadiado/Quiz-de-Filmes
