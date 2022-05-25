@@ -36,10 +36,18 @@ const animateFinalScore = () => {
     }
     finalScoreContainer.querySelector("span").textContent = `${counter++}%`;
   }, 20);
+};
+
+const resetUserScore = () => {
+  score = 0
 }
 
 form.addEventListener("submit", event => {
   event.preventDefault();
+
+
+  // Reseta a pontuação antes de enviar o form novamente
+  resetUserScore()
 
   // obtem as resposts do usuario
   const userAnswers = getUsersAnswer()
